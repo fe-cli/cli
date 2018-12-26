@@ -1,0 +1,31 @@
+{
+  "name": "fec-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fec": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fec-cli",
+    "cli"
+  ],
+  "author": "kevin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.1",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0",
+    "shelljs": "^0.8.3"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  }
+}
